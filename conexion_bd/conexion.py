@@ -9,9 +9,11 @@ def crear_conexion():
             user="root",
             password="Fornite1923",
             database="reciclaje_bd"
+
         )
         if conexion.is_connected():
             return conexion
+        return None
     except Error as e:
         print(f"Error al conectar a la base de datos: {e}")
         return None

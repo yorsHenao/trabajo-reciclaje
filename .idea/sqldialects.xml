@@ -2,6 +2,10 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/canjes_beneficios/realizar_canje.py" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/usuarios/login.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/interfaz/Consultar_Historial.py" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/interfaz/Registro_reciclaje.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/interfaz/canje_beneficios.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/interfaz/login.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/interfaz/ventana_puntos.py" dialect="GenericSQL" />
   </component>
 </project>
