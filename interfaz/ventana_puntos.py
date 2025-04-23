@@ -7,7 +7,7 @@ class ventana_puntos(QWidget): #ventana
     def __init__(self,cedula,nombre):
         super().__init__()
         self.setWindowTitle("Puntos acumulados") #titulo de ventana
-        self.setGeometry(100,150,400,300)
+        self.setGeometry(750, 300,400,300)
         self.setStyleSheet("background-color: #3a5a40;")
 
         self.cedula = cedula

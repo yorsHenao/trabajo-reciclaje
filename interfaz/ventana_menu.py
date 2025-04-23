@@ -11,17 +11,17 @@ class menu(QWidget):
         self.cedula = cedula
         self.nombre_usuario = nombre
         self.setWindowTitle("Menu Principal")
-        self.setGeometry(100, 150, 400, 300)
+        self.setGeometry(750, 300, 400, 300)
         self.setStyleSheet("background-color: #588157;")
 
         layout = QVBoxLayout()
 
-        self.label_nombre = QLabel(f"¡¡Hola {self.nombre_usuario}!!")
+        self.label_nombre = QLabel(f"¡Hola {self.nombre_usuario}!")
         self.label_nombre.setAlignment(Qt.AlignCenter)
         self.label_nombre.setStyleSheet("""
         background-color: #588157;
-                color: #2E3440;
-                font-size: 15px;
+                color: #cad2c5;
+                font-size: 20px;
                 font-family: "Book Antiqua";
                 font-weight: bold;
                 

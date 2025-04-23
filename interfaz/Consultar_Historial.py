@@ -8,18 +8,18 @@ class historial_usuario(QWidget):
         super().__init__()
         print(">>> En historial_usuario - Cédula:", cedula, "Tipo:", type(cedula))
         self.setWindowTitle("Ver historial")
-        self.setGeometry(100, 150, 560, 470)
+        self.setGeometry(750, 300, 560, 470)
         self.setStyleSheet("background-color: #588157;")
         self.cedula = cedula
         self.nombre = nombre
 
         layout = QVBoxLayout()
 
-        self.nombre_usuario = QLabel(f"¡¡Hola {self.nombre}!!")
+        self.nombre_usuario = QLabel(f"¡Historial {self.nombre}!")
         self.nombre_usuario.setAlignment(Qt.AlignCenter)
         self.nombre_usuario.setStyleSheet("""
         background-color: #588157;
-                color: #2E3440;
+                color: #cad2c5;
                 font-size: 20px;
                 font-family: "Book Antiqua";
                 font-weight: bold;

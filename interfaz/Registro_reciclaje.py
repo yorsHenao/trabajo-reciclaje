@@ -6,7 +6,7 @@ class ventana_registrar_reciclaje(QWidget): #ventana
     def __init__(self,cedula):
         super().__init__()
         self.setWindowTitle("Registrar reciclaje") #titulo de ventana
-        self.setGeometry(100,150,400,300)
+        self.setGeometry(750, 300,400,300)
         self.setStyleSheet("background-color: #588157;")
         self.cedula = cedula
 
@@ -17,8 +17,8 @@ class ventana_registrar_reciclaje(QWidget): #ventana
         layout.addWidget(self.label_material)
         self.label_material.setStyleSheet("""
         background-color: #588157;
-                color: #2E3440;
-                font-size: 15px;
+                color: #cad2c5;
+                font-size: 20px;
                 font-family: "Book Antiqua";
                 font-weight: bold;
         """)

@@ -7,7 +7,7 @@ class ventana_canje_beneficios(QWidget):
     def __init__(self, cedula):
         super().__init__()
         self.setWindowTitle("Canjear Beneficios")
-        self.setGeometry(100, 150, 400, 300)
+        self.setGeometry(750, 300, 400, 300)
         self.setStyleSheet("background-color: #588157;")
         self.cedula = cedula
 
